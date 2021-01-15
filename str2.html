@@ -3,10 +3,13 @@
 <head>
 	<title>Yam</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Oswald&display=swap" rel="stylesheet">>
 </head>
 <body>
 	<header>
-		<h1>Продуктовый магазин Yam</h1>
+		<h1>Yam</h1>
+		<p>Необычные сладости со всего мира!</p>
 		<div class='nav'>
 			<a href="index.html">Каталог</a>
 			<a href="str2.html" class="active">Администратору</a>
@@ -14,16 +17,18 @@
 			<a href="str4.html">О нас</a>
 		</div>
 	</header>
-	<h2>Добавить товар</h2>
-	<form action="handler.php">
-		<p>Тип товара</p>
-		<p><input type="radio" name="answer" value="a1">Напток<Br>
-		<input type="radio" name="answer" value="a2">Снеки<Br>
-		<input type="radio" name="answer" value="a3">Сладости</p>
-		<p>Название</p>
-		<input type="text" name="name">
-		<p><input type="submit"></p>
-	</form>
+	<main>
+		<h2>Добавить товар</h2>
+		<form action="handler.php">
+			<p>Тип товара</p>
+			<p><input type="radio" name="answer" value="a1">Напток<Br>
+			<input type="radio" name="answer" value="a2">Снеки<Br>
+			<input type="radio" name="answer" value="a3">Сладости</p>
+			<p>Название</p>
+			<input type="text" name="name">
+			<p><input type="submit"></p>
+		</form>
+	</main>
 	<footer>
 		<p>Продуктовый Магазин</p>
 		<a href="about.html">О разработке</a>
